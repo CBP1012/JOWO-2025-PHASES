@@ -76,14 +76,16 @@ We encourage two types of contributions:
 Papers for the conference should be submitted **non-anonymously** in **PDF format** in compliance with the **new 1-column CEUR-ART Style**, which can be found [at CEUR](https://ceur-ws.org/HOWTOSUBMIT.html).  
 The **EasyChair submission page** can be found [on EasyChair](https://easychair.org/). Be sure to select the *JOWO Workshop - Workshop on the Convergence of Large Language Models and Ontologies* track.
 
-All contributions to **JOWO workshops** will be published in a joint **CEUR proceedings volume**, compare
- [JOWO 2023](https://ceur-ws.org/Vol-2023/)
- [JOWO 2022](https://ceur-ws.org/Vol-2022/)
- [JOWO 2021](https://ceur-ws.org/Vol-2021/)
- [JOWO 2020](https://ceur-ws.org/Vol-2020/)
- [JOWO 2019](https://ceur-ws.org/Vol-2019/)
- [JOWO 2018](https://ceur-ws.org/Vol-2018/)
- [JOWO 2017](https://ceur-ws.org/Vol-2017/)
+All contributions to **JOWO workshops** will be published in a joint **CEUR proceedings volume**, compare:
+
+JOWO 2023
+JOWO 2022
+JOWO 2021
+JOWO 2020
+JOWO 2019
+JOWO 2018
+JOWO 2017
+
 ---
 
 ## Contact
