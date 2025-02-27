@@ -22,14 +22,14 @@ With these goals in mind, we invite **submissions** for this workshop, which wil
 
 The workshop seeks contributions related to, but not limited to:
 
-- Development of **ontologies** for psychological research, with particular interest in narrative identity, solitude, and gerotranscendence constructs.
-- Challenges in aligning **constructs and datasets** across social science fields.
-- Strategies for enhancing **clarity and standardization** of psychological and philosophy constructs such as loneliness, solitude, and social isolation.
-- Connecting ontologies to existing frameworks, such as the **Behavior Change Intervention Ontology, Mental Functioning Ontology, and Emotion Ontology**.
-- Addressing **ethical, cultural, and demographic nuances** in psychological and social science ontological modeling.
-- Integrating **ontology development** with mixed methods in social science research.
-- Case studies on **semantic technologies in social science research**.
-- Ontology-based insights into the **psychology of meaning-making, resilience, and flourishing**.
+- Development of Ontologies in Psychological Research
+- Challenges in Aligning Constructs and Datasets
+- Enhancing Clarity and Standardization
+- Connecting Ontologies to Existing Frameworks
+- Ethical, Cultural, and Demographic Considerations
+- Integrating Ontologies with Mixed Methods Research
+- Case Studies in Semantic Technologies
+- Ontology-Based Insights in Meaning-Making, Resilience, and Flourishing
 
 ---
 
@@ -94,3 +94,4 @@ Join us in shaping the future of **knowledge representation and language underst
 For any inquiries, please email **[johnbeve@buffalo.edu](mailto:johnbeve@buffalo.edu)**.
 
 ---
+
