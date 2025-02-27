@@ -84,6 +84,7 @@ All contributions to **JOWO workshops** will be published in a joint **CEUR proc
  JOWO 2019 (https://ceur-ws.org/Vol-2019/)
  JOWO 2018 (https://ceur-ws.org/Vol-2018/)
  JOWO 2017 (https://ceur-ws.org/Vol-2017/)
+ 
 ---
 
 ## Contact
