@@ -22,41 +22,40 @@ With these goals in mind, we invite **submissions** for this workshop, which wil
 
 The workshop seeks contributions related to, but not limited to:
 
-
-- Development of Ontologies in Psychological Research
-- Challenges in Aligning Constructs and Datasets
-- Enhancing Clarity and Standardization
-- Connecting Ontologies to Existing Frameworks
-- Ethical, Cultural, and Demographic Considerations
-- Integrating Ontologies with Mixed Methods Research
-- Case Studies in Semantic Technologies
-- Ontology-Based Insights in Meaning-Making, Resilience, and Flourishing
+ Development of Ontologies in Psychological Research
+ Challenges in Aligning Constructs and Datasets
+ Enhancing Clarity and Standardization
+ Connecting Ontologies to Existing Frameworks
+ Ethical, Cultural, and Demographic Considerations
+ Integrating Ontologies with Mixed Methods Research
+ Case Studies in Semantic Technologies
+ Ontology-Based Insights in Meaning-Making, Resilience, and Flourishing
 
 ---
 
 ## Organizing Committee
 
-- **John Beverley**, University at Buffalo  
-- **Bill Duncan**, University of Florida  
-- **Julie Bowker**, University at Buffalo  
-- **Hollen Reischer**, University at Buffalo  
-- **Yongqun “Oliver” He**, University of Michigan  
+ **John Beverley**, University at Buffalo  
+ **Bill Duncan**, University of Florida  
+ **Julie Bowker**, University at Buffalo  
+ **Hollen Reischer**, University at Buffalo  
+ **Yongqun “Oliver” He**, University of Michigan  
 
 ---
 
 ## Important Dates
 
-- **Submission Deadline:** 1 June 2025  
-- **Notification of Acceptance:** 14 July 2025  
-- **Camera-Ready Submissions:** 1 September 2025  
-- **Workshop Date:** Between 8-9 September 2025  
+ **Submission Deadline:** 1 June 2025  
+ **Notification of Acceptance:** 14 July 2025  
+ **Camera-Ready Submissions:** 1 September 2025  
+ **Workshop Date:** Between 8-9 September 2025  
 
 ---
 
 ## Talk Structure
 
-- **30 minutes** for each talk from a full paper *(20 min presentation + 10 min Q&A)*.
-- **20 minutes** for each talk from a short paper *(15 min presentation + 5 min Q&A)*.
+ **30 minutes** for each talk from a full paper *(20 min presentation + 10 min Q&A)*.
+ **20 minutes** for each talk from a short paper *(15 min presentation + 5 min Q&A)*.
 
 ---
 
@@ -65,14 +64,14 @@ The workshop seeks contributions related to, but not limited to:
 We encourage two types of contributions:
 
 ### **Full Research Paper**
-- Maximum **14 pages** (excluding bibliography).
-- Minimum length **10 pages**.
-- Must include an abstract of no more than **250 words**.
+ Maximum **14 pages** (excluding bibliography).
+ Minimum length **10 pages**.
+ Must include an abstract of no more than **250 words**.
 
 ### **Short Paper**
-- Maximum **9 pages** (excluding bibliography).
-- Minimum length **5 pages**.
-- Must include an abstract of no more than **250 words**.
+ Maximum **9 pages** (excluding bibliography).
+ Minimum length **5 pages**.
+ Must include an abstract of no more than **250 words**.
 
 Papers for the conference should be submitted **non-anonymously** in **PDF format** in compliance with the **new 1-column CEUR-ART Style**, which can be found [at CEUR](https://ceur-ws.org/HOWTOSUBMIT.html).  
 The **EasyChair submission page** can be found [on EasyChair](https://easychair.org/). Be sure to select the *JOWO Workshop - Workshop on the Convergence of Large Language Models and Ontologies* track.
@@ -95,4 +94,3 @@ Join us in shaping the future of **knowledge representation and language underst
 For any inquiries, please email **[johnbeve@buffalo.edu](mailto:johnbeve@buffalo.edu)**.
 
 ---
-
