@@ -22,6 +22,7 @@ With these goals in mind, we invite **submissions** for this workshop, which wil
 
 The workshop seeks contributions related to, but not limited to:
 
+
 - Development of Ontologies in Psychological Research
 - Challenges in Aligning Constructs and Datasets
 - Enhancing Clarity and Standardization
