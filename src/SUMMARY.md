@@ -2,7 +2,7 @@
 
 ## 15th International Conference on Formal Ontology in Information Systems (FOIS 2025)
 
-**Dates:** 08-12 September 2025 (Catania, Sicily)
+Dates: 08-12 September 2025 (Catania, Sicily)
 
 ---
 
