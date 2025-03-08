@@ -6,17 +6,16 @@
     <title>Faculty List</title>
     <style>
         body {
-            line-height: 1.6;
+            line-height: 4;
             font-family: Arial, sans-serif;
             background-color: #808080;
             color: #333;
             margin: 0;
             padding: 0;
-            font-size: 20px;
+            font-size: 25px;
         }
         header {
             background: url(https://github.com/CBP1012/JOWO-2025-PHASES/blob/main/Images/tree-of-knowledge-edmund-nagele.jpg?raw=true) no-repeat center center;
-            background-size: cover;
             color: white;
             padding: 60px 20px;
             text-align: center;
@@ -64,22 +63,37 @@
             box-shadow: 0 4px 6px rgba(0,0,0,0.1);
             text-align: center;
         }
-        .section-title {
-            font-size: 24px;
-            margin-bottom: 15px;
+        .head img {
+            width: 200px; /* Adjust size as needed */
+            height: 200px; /* Make width and height equal */
+            object-fit: cover; /* Ensures the image covers the full area */
+            border-radius: 50%; /* Makes the image circular */
+            display: block;
+            margin: auto;
+        }
+        .head section {
+            gap: 20px; /* Spacing between grid items */
+            align-items: center;
+            justify-content: center;
+        }
+        .head div {
+            text-align: center;
+        }
+        .head a {
+            display: block;
             color: #2c3e50;
-            border-bottom: 2px solid #2c3e50;
-            padding-bottom: 5px;
+            font-weight: bold;
+            text-decoration: none;
         }
-        .important-dates, .organizing-committee, .submission-guidelines, .topics-of-interest {
-            margin-bottom: 20px;
-        }
-        .important-dates li, .organizing-committee li, .topics-of-interest li {
-            font-size: 20px;
+        .head a:hover {
+            text-decoration: underline;
         }
     </style>
-
 </head>
+
+<header>
+</header>
+
 <body>
 <nav class="nav-bar">
         <a href="https://cbp1012.github.io/JOWO-2025-PHASES/">About</a>
@@ -90,24 +104,28 @@
 
     <section>
         <div>
-            <img src="placeholder.jpg" alt="John Beverley">
-            <a href="#">John Beverley, University at Buffalo</a>
+            <img src="https://github.com/CBP1012/JOWO-2025-PHASES/blob/main/Images/JB.png?raw=true" alt="John Beverley" loading="lazy">
+            <a href="https://johnbeverley.com/">John Beverley, University at Buffalo</a>
         </div>
+
         <div>
-            <img src="placeholder.jpg" alt="Bill Duncan">
-            <a href="#">Bill Duncan, University of Florida</a>
+            <img src="https://github.com/CBP1012/JOWO-2025-PHASES/blob/main/Images/BD.png?raw=true" alt="Bill Duncan" loading="lazy">
+            <a href="https://dental.ufl.edu/profile/duncan-bill/">Bill Duncan, University of Florida</a>
         </div>
+
         <div>
-            <img src="placeholder.jpg" alt="Julie Bowker">
-            <a href="#">Julie Bowker, University at Buffalo</a>
+            <img src="https://github.com/CBP1012/JOWO-2025-PHASES/blob/main/Images/JulieB.jpg?raw=true" alt="Julie Bowker" loading="lazy">
+            <a href="https://arts-sciences.buffalo.edu/psychology/faculty/faculty-directory/bowker.html">Julie Bowker, University at Buffalo</a>
         </div>
+
         <div>
-            <img src="placeholder.jpg" alt="Hollen Reischer">
-            <a href="#">Hollen Reischer, University at Buffalo</a>
+            <img src="https://github.com/CBP1012/JOWO-2025-PHASES/blob/main/Images/HollenR.jpg?raw=true" alt="Hollen Reischer" loading="lazy">
+            <a href="https://arts-sciences.buffalo.edu/psychology/faculty/faculty-directory/reischer.html">Hollen Reischer, University at Buffalo</a>
         </div>
+
         <div>
-            <img src="placeholder.jpg" alt="Yongqun Oliver He">
-            <a href="#">Yongqun “Oliver” He, University of Michigan</a>
+            <img src="https://github.com/CBP1012/JOWO-2025-PHASES/blob/main/Images/acu-oliver-he-headshot.png?raw=true" alt="Yongqun Oliver He" loading="lazy">
+            <a href="https://animalcare.umich.edu/staff/yongqun-oliver-he-dvm-phd/">Yongqun “Oliver” He, University of Michigan</a>
         </div>
     </section>
 </div>
