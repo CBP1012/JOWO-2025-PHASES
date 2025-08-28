@@ -39,86 +39,73 @@
     }
     header::after {
       content: '';
-      position: absolute;
-      top: 0; left: 0;
-      width: 100%; height: 100%;
+      position: absolute; inset: 0;
       background: rgba(0,0,0,0.4);
     }
-    header .hero-content {
-      position: relative;
-      z-index: 1;
-      max-width: var(--max-width);
-      padding: var(--spacing-lg);
-    }
-    header h1 {
-      font-size: 2.5rem;
-      margin-bottom: var(--spacing-sm);
-      font-weight: 600;
-    }
-    header p {
-      font-size: 1.1rem;
-      opacity: 0.9;
-      margin-bottom: var(--spacing-sm);
-    }
-    nav {
-      background-color: var(--color-accent);
-      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-    }
+    header .hero-content { position: relative; z-index: 1; max-width: var(--max-width); padding: var(--spacing-lg); }
+    header h1 { font-size: 2.5rem; margin-bottom: var(--spacing-sm); font-weight: 600; }
+    header p { font-size: 1.1rem; opacity: 0.9; margin-bottom: var(--spacing-sm); }
+
+    nav { background-color: var(--color-accent); box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
     .nav-container {
       max-width: var(--max-width);
       margin: 0 auto;
-      display: flex;
-      justify-content: center;
+      display: flex; justify-content: center;
       padding: var(--spacing-sm) 0;
     }
     .nav-container a {
-      color: var(--color-light);
-      text-decoration: none;
+      color: var(--color-light); text-decoration: none;
       margin: 0 var(--spacing-md);
       padding: var(--spacing-sm) var(--spacing-lg);
       border-radius: var(--border-radius);
-      font-weight: 600;
-      transition: background-color 0.3s;
+      font-weight: 600; transition: background-color 0.3s;
     }
-    .nav-container a:hover {
-      background-color: rgba(255,255,255,0.2);
-    }
-    main {
-      max-width: var(--max-width);
-      margin: var(--spacing-lg) auto;
-      padding: 0 var(--spacing-md);
-    }
-    section {
-      margin-bottom: var(--spacing-lg);
-    }
+    .nav-container a:hover { background-color: rgba(255,255,255,0.2); }
+
+    main { max-width: var(--max-width); margin: var(--spacing-lg) auto; padding: 0 var(--spacing-md); }
+    section { margin-bottom: var(--spacing-lg); }
     .section-title {
-      font-size: 1.8rem;
-      margin-bottom: var(--spacing-sm);
-      position: relative;
-      padding-bottom: var(--spacing-sm);
+      font-size: 1.8rem; margin-bottom: var(--spacing-sm);
+      position: relative; padding-bottom: var(--spacing-sm);
     }
     .section-title::after {
       content: '';
-      position: absolute;
-      bottom: 0; left: 0;
-      width: 50px;
-      height: 3px;
-      background-color: var(--color-accent);
+      position: absolute; bottom: 0; left: 0;
+      width: 50px; height: 3px; background-color: var(--color-accent);
       border-radius: var(--border-radius);
     }
-    .overview p {
-      margin-bottom: var(--spacing-lg);
-      font-weight: 400;
+    .agenda-meta { margin: var(--spacing-sm) 0 var(--spacing-md); font-weight: 600; }
+    .agenda-table { width: 100%; border-collapse: collapse; background: var(--color-light); border-radius: var(--border-radius); overflow: hidden; }
+    .agenda-table th, .agenda-table td {
+      padding: 0.8rem 1rem; vertical-align: top; border-bottom: 1px solid #e6e9ef;
     }
-    .note {
-      font-size: 0.9rem;
-      color: #555;
-      margin-top: var(--spacing-sm);
+    .agenda-table th {
+      text-align: left; font-weight: 600; background: #eef3f5;
     }
+    .agenda-group {
+      background: #f0f6f4; font-weight: 600;
+    }
+    .agenda-note {
+      background: #fafafa; font-style: italic;
+    }
+    .agenda-table tr:last-child td { border-bottom: none; }
+    .nowrap { white-space: nowrap; }
+
+    .keynote {
+      display: grid; grid-template-columns: 200px 1fr; gap: var(--spacing-lg);
+      align-items: start; background: var(--color-light);
+      padding: var(--spacing-lg); border-radius: var(--border-radius);
+      box-shadow: 0 2px 6px rgba(0,0,0,0.04);
+    }
+    .keynote img { width: 200px; height: auto; border-radius: var(--border-radius); }
+    .keynote h3 { margin: 0 0 0.3rem 0; }
+    .keynote p { margin: 0.4rem 0; }
+
     @media (max-width: 768px) {
       header h1 { font-size: 2rem; }
       .nav-container { flex-direction: column; }
       .nav-container a { margin: var(--spacing-sm) 0; }
+      .keynote { grid-template-columns: 1fr; }
     }
   </style>
 </head>
@@ -139,26 +126,85 @@
     </div>
   </nav>
 
-<main>
-<section id="program">
-  <h2 class="section-title">Program Schedule</h2>
-  <p><em>Click the link below to download the agenda.</em></p>
-  <p><a href="files/PHASES-Agenda.docx" download>September 9, 2025</a></p>
-</section>
+  <main>
+    <!-- Agenda first -->
+    <section id="program">
+      <h2 class="section-title">Agenda</h2>
+      <div class="agenda-meta"><center><h2>PHASES Workshop 2025</h2></center><center><h2>September 9, 2025</h2></center></div>
 
-  <section id="keynote">
-    <h2 class="section-title">Keynote Speaker</h2>
+      <table class="agenda-table" aria-describedby="program">
+        <thead>
+          <tr>
+            <th class="nowrap">Time</th>
+            <th>Title</th>
+            <th>Speakers</th>
+          </tr>
+        </thead>
+        <tbody>
 
-    <div class="keynote">
-      <img src="Images/NettaWeinstein.png" alt="Netta Weinstein" width="200" />
-      <h3>Netta Weinstein</h3>
-      <p><strong>Title:</strong> <em>Improving everyday solitude of older adults: Opportunities and strategies.</em></p>
-      <p><strong>Abstract:</strong> Solitude is a common, and often positive, feature of daily life in older adulthood. Older adults benefit from time alone—even more so than their young adult counterparts—but the consequences of solitude for well-being are not uniformly positive or negative. Drawing on a growing body of research, this talk explores how solitude can be a rich opportunity for psychological well-being rather than a source of loneliness or boredom. In this talk, I discuss evidence that solitude is important for satisfying older adults’ need for autonomy, a key contributor to well-being across the lifespan. I also discuss the importance of self-kindness in shaping positive experiences of being alone in older adulthood. Finally, I discuss a new concept, solitude crafting, which involves the intentional shaping of solitary time with awareness, planning, and purpose. Solitude crafting offers a flexible strategy to align solitary moments with personal values, interests, and emotional needs. Together, these findings suggest that with the right mindset and strategies, everyday solitude can become a meaningful and well-being-promoting part of later life.</p>
-      <p><strong>Bio:</strong> Netta Weinstein is a Professor of Psychology at the University of Reading and Research Associate at the Oxford Internet Institute, UK. She received her PhD from the University of Rochester. Her research examines the human motivation and well-being, focusing on the qualities of social and solitudinal contexts that best promote well-being. She has published over 100 papers and two books including “Solitude: The Science and Power of Being Alone” (Cambridge University Press).</p>
-    </div>
-  </section>
-</main>
+          <tr>
+            <td class="nowrap">9:30 – 9:55</td>
+            <td>Improvements for the Ontology of Curiosity</td>
+            <td>Regina Hurley</td>
+          </tr>
+          <tr>
+            <td class="nowrap">9:55 – 10:20</td>
+            <td>Formalizing Heuristics: Cognitive Strategies for Decisions under Constraint</td>
+            <td>Timothy Coleman and John Bittner</td>
+          </tr>
+          <tr>
+            <td class="nowrap">10:20 – 10:45</td>
+            <td>Towards an Ontology-Based System to Foster Older Adults’ Mental Health via Indoor Comfort Management</td>
+            <td>Daniele Spoladore, Anđela Đinđić, Walter Terkaj</td>
+          </tr>
+          <tr>
+            <td class="nowrap">10:45 – 11:05</td>
+            <td>The OPheP Initiative: An Open-Source Taxonomy for Capturing “First-Person” Mental Health Data</td>
+            <td>Rasmus Rosenberg Larsen</td>
+          </tr>
 
+          <tr class="agenda-note">
+            <td class="nowrap">11:05 – 11:30</td>
+            <td colspan="2">Coffee Break</td>
+          </tr>
 
+          <tr>
+            <td class="nowrap">11:30 – 12:15</td>
+            <td>
+              <a href="#keynote" title="Jump to keynote bio and abstract">
+                Keynote: Improving Everyday Solitude of Older Adults: Opportunities and Strategies
+              </a>
+            </td>
+            <td>Netta Weinstein</td>
+          </tr>
+          <tr>
+            <td class="nowrap">12:15 – 12:40</td>
+            <td>Closure through an Ontological Lens</td>
+            <td>Noor Al-Khaouli, Keilai Angeldekao, Rachel Mavrovich</td>
+          </tr>
+          <tr>
+            <td class="nowrap">12:40 – 1:00</td>
+            <td>Towards Healthy Aging through Semantic Enrichment</td>
+            <td>John Beverley, Julie Bowker, Hollen Reischer, Rachel Mavrovich, Regina Hurley, Sean Kindya, Samuel Smith, Jie Zheng, Yongqun He, Beera Damayanthi Jesudas, William Duncan</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- Keynote AFTER agenda, with anchor target -->
+    <section id="keynote">
+      <h2 class="section-title">Keynote Speaker</h2>
+      <div class="keynote">
+        <img src="Images/NettaWeinstein.png" alt="Portrait of Netta Weinstein" />
+        <div>
+          <h3 id="keynote-bio">Netta Weinstein</h3>
+          <p><strong>Title:</strong> <em>Improving everyday solitude of older adults: Opportunities and strategies.</em></p>
+          <p><strong>Abstract:</strong> Solitude is a common, and often positive, feature of daily life in older adulthood. Older adults benefit from time alone—even more so than their young adult counterparts—but the consequences of solitude for well-being are not uniformly positive or negative. Drawing on a growing body of research, this talk explores how solitude can be a rich opportunity for psychological well-being rather than a source of loneliness or boredom. In this talk, I discuss evidence that solitude is important for satisfying older adults’ need for autonomy, a key contributor to well-being across the lifespan. I also discuss the importance of self-kindness in shaping positive experiences of being alone in older adulthood. Finally, I discuss a new concept, solitude crafting, which involves the intentional shaping of solitary time with awareness, planning, and purpose. Solitude crafting offers a flexible strategy to align solitary moments with personal values, interests, and emotional needs. Together, these findings suggest that with the right mindset and strategies, everyday solitude can become a meaningful and well-being-promoting part of later life.</p>
+          <p><strong>Bio:</strong> Netta Weinstein is a Professor of Psychology at the University of Reading and Research Associate at the Oxford Internet Institute, UK. She received her PhD from the University of Rochester. Her research examines human motivation and well-being, focusing on the qualities of social and solitudinal contexts that best promote well-being. She has published over 100 papers and two books including <em>Solitude: The Science and Power of Being Alone</em> (Cambridge University Press).</p>
+          <p class="note"><a href="#program">Back to agenda</a></p>
+        </div>
+      </div>
+    </section>
+  </main>
 </body>
 </html>
